@@ -164,13 +164,18 @@ ul li a{
     }
       
 footer {
-    background-color: #fff;
+    background-color: blueviolet;
     color: black;
+  }
+  footer .footer-content .footer-contact ul li a{
+    padding-top: 25px;
+    margin-left: 20px;
+    text-decoration: none;
   }
   
 footer p {
   font-size: small;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
       }

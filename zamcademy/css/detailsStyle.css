@@ -1,0 +1,123 @@
+*{
+
+	box-sizing: border-box;
+}
+html, body{
+	padding: 0;
+	margin: 0;
+	/**background: #f6f6f6;**/
+	background: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    height: 70%;
+}
+header *{
+	color: white;
+}
+header{
+	background: blueviolet;
+	height: 66px;
+	font-family: 'Candal', sans-serif;
+}
+header .logo {
+	float: left;
+	height: inherit;
+	margin-left:10px;
+	
+}
+header .logo-text {
+	margin: 8px;
+}
+header ul {
+ float: right;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+header ul li{
+	float: left;
+}
+header ul li a{
+	display: block;
+	padding: 21px;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+a {
+  color: white;
+  font-size: 17px;
+  text-decoration:none;
+ ;
+}
+.footer ul{
+	 list-style: none
+}
+.footer ul li{
+	 padding: 7px;
+}
+.page-title{
+	font-size: 60px;
+	margin-left:60px;
+}
+/**Styling for courses**/
+.page-content{
+	/**border:1px solid red;**/
+	min-height: 70%;
+}
+.page-wrapper{
+	min-height: 70%;
+}
+.page-content .course-wrapper{
+ width: 54%;
+ height: 550px;
+ margin: auto;
+ /**border:1px solid blue;**/
+}
+.page-content .course-wrapper .courses{
+	background: #f6f6f6;
+	margin-top: 10px;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
+	border:1px solid grey;
+}
+.page-content .course-wrapper .courses a{
+	color: black;
+	font-size:20px;
+	text-decoration: none;
+}
+.page-content .course-wrapper .courses a.inner-text{
+	
+	float: right;
+	font-size: 15px;
+
+}
+/**Footer***/
+.footer{
+	background:blueviolet;
+	color: white;
+	height: 200px;
+	position: relative;
+}
+.footer .footer-content{
+	height: 150;
+	/**display: flex;**/
+
+}
+.footer .footer-content .footer-contact{
+
+padding-top: 25px;
+
+}
+.footer .footer-bottom{
+	background: blueviolet;
+	color:white;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 10px;
+}
